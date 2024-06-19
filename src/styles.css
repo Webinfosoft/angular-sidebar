@@ -1,0 +1,9 @@
+body {
+    background: #f8f7fa;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 500;
+}
+.sidebar-outer {
+    width: 100%;
+    max-width: 16.25rem;
+}

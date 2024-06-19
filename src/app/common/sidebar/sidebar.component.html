@@ -1,0 +1,563 @@
+<aside id="sidebar-menu" class="sidebar-menu col-2">
+    <div class="sidebar-logo">
+        <a routerLink="#" class="sidebar-logo-anchor">
+            <span class="sidebar-logo-img">
+                <svg width="32" height="22" viewBox="0 0 32 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M0.00172773 0V6.85398C0.00172773 6.85398 -0.133178 9.01207 1.98092 10.8388L13.6912 21.9964L19.7809 21.9181L18.8042 9.88248L16.4951 7.17289L9.23799 0H0.00172773Z"
+                        fill="#7367F0" />
+                    <path opacity="0.06" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M7.69824 16.4364L12.5199 3.23696L16.5541 7.25596L7.69824 16.4364Z" fill="#161616" />
+                    <path opacity="0.06" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M8.07751 15.9175L13.9419 4.63989L16.5849 7.28475L8.07751 15.9175Z" fill="#161616" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M7.77295 16.3566L23.6563 0H32V6.88383C32 6.88383 31.8262 9.17836 30.6591 10.4057L19.7824 22H13.6938L7.77295 16.3566Z"
+                        fill="#7367F0" />
+                </svg>
+            </span>
+            <span class="sidebar-logo-text">Vuexy</span>
+        </a>
+
+        <a href="javascript:void(0);" class="sidebar-toggle-anchor">
+            <i class=""></i>
+        </a>
+    </div>
+
+    <div class="menu-inner-shadow d-none"></div>
+
+    <ul id="sidebar-navbar" class="menu-inner me-1">
+        <!-- Dashboards -->
+        <li class="menu-item">
+            <a href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#menu-collapse"
+                aria-expanded="false" class="menu-item-a active collapsed">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="22"  height="22"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-smart-home"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19 8.71l-5.333 -4.148a2.666 2.666 0 0 0 -3.274 0l-5.334 4.148a2.665 2.665 0 0 0 -1.029 2.105v7.2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-7.2c0 -.823 -.38 -1.6 -1.03 -2.105" /><path d="M16 15c-2.21 1.333 -5.792 1.333 -8 0" /></svg>
+                <span>Dashboards</span>
+                <span class="badge bg-primary rounded-pill ms-auto">5</span>
+            </a>
+            <div class="collapse" id="menu-collapse">
+                <ul class="sub-menu">
+                    <li class="menu-item active">
+                        <a [routerLink]="['/analytics']" routerLinkActive="active" class="menu-link active">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>Analytics</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a [routerLink]="['/preview']" routerLinkActive="active" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>CRM</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>eCommerce</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>Logistics</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>Academy</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+        <!-- Layouts -->
+        <li class="menu-item">
+            <a href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#layouts-collapse"
+                aria-expanded="false" class="menu-item-a collapsed">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="22"  height="22"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-layout-sidebar"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" /><path d="M9 4l0 16" /></svg>    
+                <div data-i18n="Dashboards">Layouts</div>
+            </a>
+            <div class="collapse" id="layouts-collapse">
+                <ul class="sub-menu">
+                    <li class="menu-item">
+                        <a [routerLink]="['/#']" routerLinkActive="active" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            <div data-i18n="Analytics">Collapsed menu</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            <div data-i18n="CRM">CRM</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            <div data-i18n="eCommerce">Collapsed menu</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            <div data-i18n="Logistics">Collapsed menu</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            <div data-i18n="Academy">Collapsed menu</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+        <!-- Front Pages -->
+        <li class="menu-item">
+            <a href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#front-pages-collapse"
+                aria-expanded="false" class="menu-item-a collapsed">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="22"  height="22"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-files"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 3v4a1 1 0 0 0 1 1h4" /><path d="M18 17h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h4l5 5v7a2 2 0 0 1 -2 2z" /><path d="M16 17v2a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" /></svg>
+                <div data-i18n="Dashboards">Front Pages</div>
+            </a>
+            <div class="collapse" id="front-pages-collapse">
+                <ul class="sub-menu">
+                    <li class="menu-item">
+                        <a [routerLink]="['/#']" routerLinkActive="active" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            <div data-i18n="Analytics">Landing</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            <div data-i18n="CRM">Pricing</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            <div data-i18n="eCommerce">Payment</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            <div data-i18n="Logistics">Checkout</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            <div data-i18n="Academy">Help Center</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+        <li class="menu-header small text-uppercase">
+            <span class="menu-header-text">Apps &amp; Pages</span>
+        </li>
+
+        <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-item-single">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="22"  height="22"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-smart-home"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19 8.71l-5.333 -4.148a2.666 2.666 0 0 0 -3.274 0l-5.334 4.148a2.665 2.665 0 0 0 -1.029 2.105v7.2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-7.2c0 -.823 -.38 -1.6 -1.03 -2.105" /><path d="M16 15c-2.21 1.333 -5.792 1.333 -8 0" /></svg>
+                <div data-i18n="Dashboards">Email</div>
+            </a>
+        </li>
+
+        <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-item-single">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="22"  height="22"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-smart-home"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19 8.71l-5.333 -4.148a2.666 2.666 0 0 0 -3.274 0l-5.334 4.148a2.665 2.665 0 0 0 -1.029 2.105v7.2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-7.2c0 -.823 -.38 -1.6 -1.03 -2.105" /><path d="M16 15c-2.21 1.333 -5.792 1.333 -8 0" /></svg>
+                <div data-i18n="Dashboards">Chats</div>
+            </a>
+        </li>
+
+        <!-- Invoice -->
+        <li class="menu-item">
+            <a href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#invoice-collapse"
+                aria-expanded="false" class="menu-item-a collapsed">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="22"  height="22"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-smart-home"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19 8.71l-5.333 -4.148a2.666 2.666 0 0 0 -3.274 0l-5.334 4.148a2.665 2.665 0 0 0 -1.029 2.105v7.2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-7.2c0 -.823 -.38 -1.6 -1.03 -2.105" /><path d="M16 15c-2.21 1.333 -5.792 1.333 -8 0" /></svg>
+                <span>Invoice</span>
+                <div class="badge bg-danger rounded-pill ms-auto">4</div>
+            </a>
+            <div class="collapse" id="invoice-collapse">
+                <ul class="sub-menu">
+                    <li class="menu-item active">
+                        <a [routerLink]="['/analytics']" routerLinkActive="active" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>List</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a [routerLink]="['/preview']" routerLinkActive="active" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>Preview</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>Edit</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>Add</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+        <!-- Pages -->
+        <li class="menu-item">
+            <a href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pages-collapse"
+                aria-expanded="false" class="menu-item-a collapsed">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="22"  height="22"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-smart-home"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19 8.71l-5.333 -4.148a2.666 2.666 0 0 0 -3.274 0l-5.334 4.148a2.665 2.665 0 0 0 -1.029 2.105v7.2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-7.2c0 -.823 -.38 -1.6 -1.03 -2.105" /><path d="M16 15c-2.21 1.333 -5.792 1.333 -8 0" /></svg>
+                <span>Pages</span>
+            </a>
+            <div class="collapse" id="pages-collapse">
+                <ul class="sub-menu">
+                    <li class="menu-item">
+                        <a [routerLink]="['/#']" routerLinkActive="active" class="menu-item-a menu-link" data-bs-toggle="collapse"
+                            data-bs-target="#user-profile-collapse" aria-expanded="false"
+                            class="menu-item-a collapsed">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>User Profile</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <!-- Products Pages -->
+                            <li class="menu-item">
+                                <div class="collapse" id="user-profile-collapse">
+                                    <ul class="sub-menu nested">
+                                        <li class="menu-item">
+                                            <a [routerLink]="['/#']" routerLinkActive="active" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Profile</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Teams</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Project</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Connection</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item">
+                        <a [routerLink]="['/#']" routerLinkActive="active" class="menu-item-a menu-link" data-bs-toggle="collapse"
+                            data-bs-target="#account-settings-collapse" aria-expanded="false"
+                            class="menu-item-a collapsed">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>Account Settings</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <div class="collapse" id="account-settings-collapse">
+                                    <ul class="sub-menu nested">
+                                        <li class="menu-item">
+                                            <a [routerLink]="['/#']" routerLinkActive="active" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Account</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Security</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Billing & Plans</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Notifications</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Connection</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>FAQ</span>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>Pricing</span>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a [routerLink]="['/#']" routerLinkActive="active" class="menu-item-a menu-link" data-bs-toggle="collapse"
+                            data-bs-target="#misc-collapse" aria-expanded="false" class="menu-item-a collapsed">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>Misc</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <div class="collapse" id="misc-collapse">
+                                    <ul class="sub-menu nested">
+                                        <li class="menu-item">
+                                            <a [routerLink]="['/#']" routerLinkActive="active" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Error</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Under Maintenance</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Coming Soon</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                <div data-i18n="eCommerce">Not Authorized</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </li>
+
+        <!-- Authentications -->
+        <li class="menu-item">
+            <a href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#authentications-collapse"
+                aria-expanded="false" class="menu-item-a collapsed">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="22"  height="22"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-smart-home"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19 8.71l-5.333 -4.148a2.666 2.666 0 0 0 -3.274 0l-5.334 4.148a2.665 2.665 0 0 0 -1.029 2.105v7.2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-7.2c0 -.823 -.38 -1.6 -1.03 -2.105" /><path d="M16 15c-2.21 1.333 -5.792 1.333 -8 0" /></svg>
+                <div data-i18n="Dashboards">Authentications</div>
+            </a>
+            <div class="collapse" id="authentications-collapse">
+                <ul class="sub-menu">
+
+                    <li class="menu-item">
+                        <a [routerLink]="['/#']" routerLinkActive="active" class="menu-item-a menu-link" data-bs-toggle="collapse"
+                            data-bs-target="#login-collapse" aria-expanded="false"
+                            class="menu-item-a collapsed">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>Login</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <div class="collapse" id="login-collapse">
+                                    <ul class="sub-menu nested">
+                                        <li class="menu-item">
+                                            <a [routerLink]="['/#']" routerLinkActive="active" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Basic</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Cover</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item">
+                        <a [routerLink]="['/#']" routerLinkActive="active" class="menu-item-a menu-link" data-bs-toggle="collapse"
+                            data-bs-target="#register-collapse" aria-expanded="false"
+                            class="menu-item-a collapsed">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>Register</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <div class="collapse" id="register-collapse">
+                                    <ul class="sub-menu nested">
+                                        <li class="menu-item">
+                                            <a [routerLink]="['/#']" routerLinkActive="active" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Basic</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Cover</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Multi-steps</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Connection</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Verify Email -->
+                    <li class="menu-item">
+                        <a [routerLink]="['/#']" routerLinkActive="active" class="menu-item-a menu-link" data-bs-toggle="collapse"
+                            data-bs-target="#verify-email-collapse" aria-expanded="false"
+                            class="menu-item-a collapsed">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>Verify Email</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <div class="collapse" id="verify-email-collapse">
+                                    <ul class="sub-menu nested">
+                                        <li class="menu-item">
+                                            <a [routerLink]="['/#']" routerLinkActive="active" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Basic</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Cover</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Reset Password -->
+                    <li class="menu-item">
+                        <a [routerLink]="['/#']" routerLinkActive="active" class="menu-item-a menu-link" data-bs-toggle="collapse"
+                            data-bs-target="#reset-password-collapse" aria-expanded="false"
+                            class="menu-item-a collapsed">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>Reset Password</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <div class="collapse" id="reset-password-collapse">
+                                    <ul class="sub-menu nested">
+                                        <li class="menu-item">
+                                            <a [routerLink]="['/#']" routerLinkActive="active" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Basic</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                               
+                                                <span>Cover</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Forgot Password -->
+                    <li class="menu-item">
+                        <a [routerLink]="['/#']" routerLinkActive="active" class="menu-item-a menu-link" data-bs-toggle="collapse"
+                            data-bs-target="#forgot-password-collapse" aria-expanded="false"
+                            class="menu-item-a collapsed">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>Forgot Password</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <div class="collapse" id="forgot-password-collapse">
+                                    <ul class="sub-menu nested">
+                                        <li class="menu-item">
+                                            <a [routerLink]="['/#']" routerLinkActive="active" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Basic</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Cover</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Two Steps -->
+                    <li class="menu-item">
+                        <a [routerLink]="['/#']" routerLinkActive="active" class="menu-item-a menu-link" data-bs-toggle="collapse"
+                            data-bs-target="#two-steps-collapse" aria-expanded="false"
+                            class="menu-item-a collapsed">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                            
+                            <span>Two Steps</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <div class="collapse" id="two-steps-collapse">
+                                    <ul class="sub-menu nested">
+                                        <li class="menu-item">
+                                            <a [routerLink]="['/#']" routerLinkActive="active" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Basic</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript:void(0)" class="menu-link">
+                                                <svg  xmlns="http://www.w3.org/2000/svg"  width="10"  height="10"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="menu-icon icon icon-tabler icons-tabler-outline icon-tabler-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /></svg>                                                
+                                                <span>Cover</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</aside>
